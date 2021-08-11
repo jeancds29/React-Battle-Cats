@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import cats from '../cats.js'
 import './App.css';
 
 class App extends Component {
@@ -13,10 +14,8 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response=> response.json())
-      .then(users => {this.setState({ cats: users})});
+  componentDidMount(){
+    this.setState({cats: cats})
   }
 
   onSearchChange = (event) => {
@@ -32,7 +31,7 @@ class App extends Component {
       <h1>Loading</h1> :
       (
         <div className='tc'>
-          <h1 className='f1'>Cool Cats</h1>
+          <h1 className='f1'>Battle Cats</h1>
           <SearchBox searchChange={this.onSearchChange}/>
           <Scroll>
             <CardList cats={filteredCats} />

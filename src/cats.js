@@ -1,62 +1,123 @@
-export const robots = [
+const cats = [
   {
     id: 1,
-    name: 'Leanne Graham',
-    username: 'Bret',
-    email: 'Sincere@april.biz'
+    name: "Flor",
+    attack: 1477,
+    defense: 1947,
   },
   {
     id: 2,
-    name: 'Ervin Howell',
-    username: 'Antonette',
-    email: 'Shanna@melissa.tv'
+    name: "Keriann",
+    attack: 1019,
+    defense: 1484,
   },
   {
     id: 3,
-    name: 'Clementine Bauch',
-    username: 'Samantha',
-    email: 'Nathan@yesenia.net'
+    name: "Iain",
+    attack: 1640,
+    defense: 2502,
   },
   {
     id: 4,
-    name: 'Patricia Lebsack',
-    username: 'Karianne',
-    email: 'Julianne.OConner@kory.org'
+    name: "Babbie",
+    attack: 1655,
+    defense: 370,
   },
   {
     id: 5,
-    name: 'Chelsey Dietrich',
-    username: 'Kamren',
-    email: 'Lucio_Hettinger@annie.ca'
+    name: "Dominique",
+    attack: 2745,
+    defense: 2126,
   },
   {
     id: 6,
-    name: 'Mrs. Dennis Schulist',
-    username: 'Leopoldo_Corkery',
-    email: 'Karley_Dach@jasper.info'
+    name: "Brigida",
+    attack: 2135,
+    defense: 459,
   },
   {
     id: 7,
-    name: 'Kurtis Weissnat',
-    username: 'Elwyn.Skiles',
-    email: 'Telly.Hoeger@billy.biz'
+    name: "Richmound",
+    attack: 570,
+    defense: 2455,
   },
   {
     id: 8,
-    name: 'Nicholas Runolfsdottir V',
-    username: 'Maxime_Nienow',
-    email: 'Sherwood@rosamond.me'
+    name: "Fidelio",
+    attack: 919,
+    defense: 692,
   },
   {
     id: 9,
-    name: 'Glenna Reichert',
-    username: 'Delphine',
-    email: 'Chaim_McDermott@dana.io'
+    name: "Nicola",
+    attack: 2130,
+    defense: 2384,
   },
   {
     id: 10,
-    name: 'Clementina DuBuque',
-    username: 'Moriah.Stanton',
-    email: 'Rey.Padberg@karina.biz'
-  }
+    name: "Clark",
+    attack: 289,
+    defense: 660,
+  },
+  {
+    id: 11,
+    name: "Delora",
+    attack: 393,
+    defense: 844,
+  },
+  {
+    id: 12,
+    name: "Izaak",
+    attack: 1128,
+    defense: 483,
+  },
+  {
+    id: 13,
+    name: "Dennis",
+    attack: 1010,
+    defense: 1150,
+  },
+  {
+    id: 14,
+    name: "Woodie",
+    attack: 1005,
+    defense: 620,
+  },
+  {
+    id: 15,
+    name: "Pablo",
+    attack: 1674,
+    defense: 2948,
+  },
+  {
+    id: 16,
+    name: "Lori",
+    attack: 347,
+    defense: 1093,
+  },
+  {
+    id: 17,
+    name: "Tommy",
+    attack: 494,
+    defense: 1872,
+  },
+  {
+    id: 18,
+    name: "Dunn",
+    attack: 2410,
+    defense: 697,
+  },
+  {
+    id: 19,
+    name: "Flin",
+    attack: 2303,
+    defense: 2439,
+  },
+  {
+    id: 20,
+    name: "Saba",
+    attack: 594,
+    defense: 1412,
+  },
 ];
+export default cats;

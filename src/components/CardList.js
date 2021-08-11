@@ -11,7 +11,8 @@ const CardList = ({ cats }) => {
               key={i}
               id={cats[i].id}
               name={cats[i].name}
-              email={cats[i].email}
+              attack={`ATK ${cats[i].attack}`}
+              defense={`DEF ${cats[i].defense}`}
               />
           );
         })
