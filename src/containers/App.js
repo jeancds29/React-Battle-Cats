@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CardList from '../components/CardList';
-import SearchBox from '../components/SearchBox';
+import CardList from '../components/card-list/CardList';
+import SearchBox from '../components/search-box/SearchBox';
 import Scroll from '../components/Scroll';
 import cats from '../cats.js'
 import './App.css';
@@ -27,6 +27,7 @@ class App extends Component {
     const filteredCats = cats.filter(cat =>{
       return cat.name.toLowerCase().includes(searchfield.toLowerCase());
     })
+    
     return !cats.length ?
       <h1>Loading</h1> :
       (

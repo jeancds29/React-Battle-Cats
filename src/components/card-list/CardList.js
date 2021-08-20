@@ -1,9 +1,12 @@
 import React from 'react';
-import Card from './Card';
+
+import Card from "../card/Card";
+
+import './card-list.styles.css';
 
 const CardList = ({ cats }) => {
   return (
-    <div>
+    <div className='card-list'>
       {
         cats.map((user, i) => {
           return (
